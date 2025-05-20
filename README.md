@@ -8,7 +8,7 @@ This is a simple script for external validation of the DISCO stroke AI model (de
 
 ```
 git clone https://github.com/liusylab/Disco_model_external_validation.git
-cd Disco_model_external_validation
+cd ./Disco_model_external_validation
 ```
 
 
