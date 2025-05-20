@@ -17,7 +17,7 @@ cd ./Disco_model_external_validation
 
 ## 1. Testing the script using sample data(example_patient_data.xlsx)
 ```
-Rscript external_valiadation.R example_patient_data.xlsx
+Rscript ./external_valiadation.R example_patient_data.xlsx
 ```
 If the script runs successfully, you will find a new file in the directory: DISCO_model_external_validation_result{time}.csv
 
@@ -34,7 +34,7 @@ We have given the fields description of the data table in the file "patient_data
 
 ## 3. External validation of models using own patient data
 ```
-Rscript external_valiadation.R your_filename.xlsx
+Rscript ./external_valiadation.R your_filename.xlsx
 ```
 
 
