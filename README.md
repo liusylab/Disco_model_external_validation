@@ -27,12 +27,12 @@ We have given the fields description of the data table in the file "**patient_da
 ```
 Rscript ./external_valiadation.R example_patient_data.xlsx
 ```
-If the script runs successfully, you will find a new file in the directory: DISCO_model_external_validation_result{time}.csv
+If the script runs successfully, you will find a new file(**DISCO_model_external_validation_result{time}.csv **)in the directory.
 
 
 ## 2. Create your own data table based on the sample data
 You can directly copy the corresponding data into the Excel table(**example_patient_data.xlsx**),.
-Moreover, our script calculates the prediction results of 3 outcomes at 2 time points by default, so a total of 6 results (m3_stroke, y1_stroke, m3_death, y1_death, m3_mRS_36 y1_mRS_36) will be calculated. If your data lacks a column of result data, please fill it with 0 directly.
+Moreover, our script calculates the prediction results of 3 outcomes at 2 time points by default, so a total of 6 results (m3_stroke, y1_stroke, m3_death, y1_death, m3_mRS_36, y1_mRS_36) will be calculated. If your data lacks a column of result data, please fill it with 0 directly.
 
 **NOTE: All the contents filled in the patient_data_table must be in numerical form!!**
 
