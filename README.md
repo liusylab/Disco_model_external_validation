@@ -25,7 +25,7 @@ We have given the fields description of the data table in the file "**patient_da
 
 ## 1. Testing the script using sample data(example_patient_data.xlsx)
 ```
-Rscript ./external_valiadation.R example_patient_data.xlsx
+Rscript ./external_validation.R example_patient_data.xlsx
 ```
 If the script runs successfully, you will find a new file(**DISCO_model_external_validation_result{time}.csv**)in the directory.
 
@@ -39,7 +39,7 @@ Moreover, our script calculates the prediction results of 3 outcomes at 2 time p
 
 ## 3. External validation of models using own patient data
 ```
-Rscript ./external_valiadation.R your_filename.xlsx
+Rscript ./external_validation.R your_filename.xlsx
 ```
 
 
