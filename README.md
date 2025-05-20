@@ -1,6 +1,5 @@
 # **DISCO model external validation tool**
-This is a simple script for external validation of the DISCO stroke AI model (developed by liulab). The following R packages are required: xgboost, Matrix, caret, readxl, pROC.
-
+This repository contains an R script for the external validation of the DISCO machine learning model, which is designed to predict post-stroke outcomes, including recurrence, disability, and mortality. The following R packages are required to run the script: xgboost, Matrix, caret, readxl, and pROC.
 
 
 
