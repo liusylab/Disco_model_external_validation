@@ -2,6 +2,19 @@
 This is a simple script for external validation of the DISCO stroke AI model (developed by liulab). The following packages are required: xgboost, Matrix, caret, readxl, pROC.
 
 
+
+
+## Download File
+
+```
+git clone https://github.com/liusylab/Disco_model_external_validation.git
+cd Disco_model_external_validation
+```
+
+
+
+
+
 ## 1. Testing the script using sample data(example_patient_data.xlsx)
 ```
 Rscript external_valiadation.R example_patient_data.xlsx
